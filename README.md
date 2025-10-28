@@ -1,4 +1,4 @@
-Simler v4.5.0 — Universal Lossless Compressor
+Simler v50.0 — Universal Lossless Compressor
 
 Simler is a fast, universal lossless compressor designed for text, images, audio, PDFs, and binaries.
 It supports multiple algorithms, integrity checks, streaming I/O, and can be used both from CLI and Python.
