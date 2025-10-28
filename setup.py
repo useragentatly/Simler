@@ -7,14 +7,12 @@ setup(
     name="simler",
     version="5.0.0",
     author="useragentatly",
-    description="Universal lossless compressor — auto-detects text/binary",
+    description="Universal lossless compressor — bulletproof, streaming, CLI + API",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/useragentatly/Simler-v4.5.0",
     py_modules=["simler"],
-    entry_points={
-        "console_scripts": ["simler=simler:main"]
-    },
+    entry_points={"console_scripts": ["simler=simler:main"]},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -23,5 +21,5 @@ setup(
         "Development Status :: 5 - Production/Stable"
     ],
     python_requires=">=3.8",
-    keywords="compression huffman gzip lzma zlib text binary streaming auto",
+    keywords="compression huffman gzip lzma zlib streaming auto text binary"
 )
