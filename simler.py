@@ -2,6 +2,8 @@
 import os, sys, pickle, hashlib, zlib, lzma, time, argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+__version__ = "5.1.0"
+
 class Simler:
     def __init__(self, chunk_size=1024*1024, integrity='sha256', verbose=False, max_workers=4):
         self.chunk_size = chunk_size
@@ -170,6 +172,3 @@ def main():
         sim.delete_from_archive(args.output, args.delete)
     else:
         parser.print_help()
-
-if __name__=="__main__":
-    main()
