@@ -10,7 +10,7 @@ setup(
     description="Universal lossless compressor — bulletproof, streaming, CLI + API",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/useragentatly/Simler-v4.5.0",
+    url="https://github.com/useragentatly/Simler",
     py_modules=["simler"],
     entry_points={"console_scripts": ["simler=simler:main"]},
     classifiers=[
@@ -21,5 +21,10 @@ setup(
         "Development Status :: 5 - Production/Stable"
     ],
     python_requires=">=3.8",
-    keywords="compression huffman gzip lzma zlib streaming auto text binary"
+    install_requires=[
+        "rich>=14.0.0",
+        "requests>=2.20"
+    ],
+    keywords="compression huffman gzip lzma zlib streaming auto text binary",
+    include_package_data=True
 )
