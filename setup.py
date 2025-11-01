@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="simler",
-    version="5.1",
+    version="5.1.0",
     author="useragentatly",
     description="Universal lossless compressor — bulletproof, streaming, CLI + API",
     long_description=long_description,
